@@ -18,7 +18,7 @@ cd /path/to/your/magento2
 mkdir -p .claude
 
 # Clone skills into .claude/skills
-git clone https://github.com/your-username/magento2-claude-skills.git .claude/skills
+git clone git@github.com:thien95tm/skill-claude.git .claude/skills
 
 # Done! Skills are now available
 ```
@@ -27,7 +27,7 @@ git clone https://github.com/your-username/magento2-claude-skills.git .claude/sk
 
 ```bash
 # Clone repository anywhere
-git clone https://github.com/your-username/magento2-claude-skills.git
+git clone git@github.com:thien95tm/skill-claude.git
 
 # Copy to your Magento project
 cp -r magento2-claude-skills /path/to/your/magento2/.claude/skills
@@ -40,7 +40,7 @@ cp -r magento2-claude-skills /path/to/your/magento2/.claude/skills
 cd /path/to/your/magento2
 
 # Add as submodule
-git submodule add https://github.com/your-username/magento2-claude-skills.git .claude/skills
+git submodule add git@github.com:thien95tm/skill-claude.git .claude/skills
 
 # Commit the submodule
 git add .gitmodules .claude/skills
